@@ -1,0 +1,9 @@
+<div class="description" *mobileOnly>
+  {{truncatedDescription}}
+  <span *ngIf="shortText">
+    ...
+  </span>
+  <span class="ncis-Notes-link" (click)="showText()">
+    {{ descriptionNtnText }}
+  </span>
+</div>
